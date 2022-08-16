@@ -1,0 +1,9 @@
+.finish{
+    
+    margin-right: auto;
+    margin-left: auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    margin-top: 2rem;
+    background-color: rgba(0,0,0,0.9);
+}

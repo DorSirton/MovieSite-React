@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.menue {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menue p {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+
+}
+#popcornicon{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgb(127, 136, 255), 0px 0px 15px rgb(127, 136, 255);
+
+}
+#popcornicon2{
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgb(127, 136, 255), 0px 0px 15px rgb(127, 136, 255);
+
+}
+#letter{
+  color: rgb(48, 58, 187);
+  font-size: 30px;
+  margin-left: 4px;
+}
+.time{
+  margin-left:20px;
+}
+
+.menue a {
+  background-color: rgb(48, 58, 187);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menue a:hover {
+  color: rgb(127, 136, 255);
+  border: 2px solid rgb(48, 58, 187);
+}

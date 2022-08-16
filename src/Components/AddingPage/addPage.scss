@@ -1,0 +1,43 @@
+section{
+    justify-content: center;
+
+    .front{
+        margin-bottom: 40px;
+    }
+
+    label{
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+        box-shadow: 0px 0px 5px rgb(127, 136, 255), 0px 0px 15px rgb(127, 136, 255);
+        margin-right: 20px;
+
+    }
+    .field{
+        align-items: center;
+        margin-top: 20px;
+        
+
+    }
+    
+    form{
+    
+        .confirm{
+            margin-top: 30px;
+        }
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+        }
+        input{
+            margin-bottom: 20px;
+        }
+        .input-validation{
+            margin-top: 20px;
+            input{
+                border: 3px solid  rgb(182, 33, 33);
+            }
+        }
+    }
+}
